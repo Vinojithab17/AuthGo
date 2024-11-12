@@ -1,0 +1,54 @@
+api.db
+go.mod
+go.sum
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.a
+
+# Build artifacts
+bin/
+build/
+dist/
+
+# Dependency directories (for vendoring)
+vendor/
+
+# Test binary
+*.test
+
+# Coverage files
+*.cover
+coverage.out
+
+# Logs and debugging
+*.log
+debug/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Go module files (optional: exclude if managed externally)
+go.sum
+
+# Go workspace
+.gowork
+
+# Private keys or sensitive files
+*.key
+*.pem
